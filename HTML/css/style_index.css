@@ -27,6 +27,8 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     padding: 3rem 2rem;
+    font-family: 'Playfair Display', serif ;
+    font-weight: 400;
 }
 .container.Proeventos{ 
  display: grid;
@@ -41,6 +43,9 @@ body {
     outline: auto;
     outline-offset: -1.5rem;
     cursor: pointer;
+    padding: 1em;
+    margin: 1em;
+    float: left;
 }
 .container .Proeventos .producto:hover{
     outline: .2rem solid #222;
@@ -55,7 +60,7 @@ body {
 .container .Proeventos .producto h3{
   padding:.5rem 0;
   font-size: 2rem;
-  color:aqua;  
+  color:rgb(190, 44, 117);  
 }
 .container .Proeventos .producto .price{
     font-size: 2.5rem;
