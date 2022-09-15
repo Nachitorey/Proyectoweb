@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2? family= Oswald:wght@700 & display=swap');
 
+
 body {
     font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
     color: rgb(246, 167, 167);    
 }
 .titulo{
-    background-color: rgb(13, 13, 13);
-   font-style: oblique;
-   font-family: 'Oswald', sans-serif;
+    background-color: rgb(254, 230, 230);
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
  
 }
 .titulox{
@@ -29,7 +30,7 @@ body {
     padding: 3rem 2rem;
     font-family: 'Playfair Display', serif ;
     font-weight: 400;
-}
+}   
 .container.Proeventos{ 
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -39,7 +40,7 @@ body {
     text-align: center;
     padding: 3rem 2rem;
     background: #fff8e4;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
     outline: auto;
     outline-offset: -1.5rem;
     cursor: pointer;
@@ -52,7 +53,7 @@ body {
     outline-offset: 0;
 }
 .container .Proeventos .producto img{
-    height: 25rem;
+    height: 28rem;
 }
 .container .Proeventos .producto:hover img{
     transform: scale(.9);
